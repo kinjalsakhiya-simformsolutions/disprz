@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  /* Font */
+  --font-sans:
+    "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+
+  /* Light theme — base palette derived from #33106c */
+  --color-background: #faf9fd;
+  --color-foreground: #1a0c38;
+
+  --color-primary: #33106c;
+  --color-primary-foreground: #ffffff;
+
+  --color-secondary: #ede8f8;
+  --color-secondary-foreground: #33106c;
+
+  --color-card: #ffffff;
+  --color-card-foreground: #1a0c38;
+
+  --color-muted: #ede8f8;
+  --color-muted-foreground: #7c6ba0;
+
+  --color-accent: #f0ecfd;
+  --color-accent-foreground: #33106c;
+
+  --color-destructive: #e11d48;
+  --color-destructive-foreground: #ffffff;
+
+  --color-border: #ddd6ef;
+  --color-input: #ddd6ef;
+  --color-ring: #33106c;
+}
+
+/* Dark theme — base palette derived from #351461 */
+.dark {
+  --color-background: #0a0812;
+  --color-foreground: #f0eaff;
+
+  --color-primary: #351461;
+  --color-primary-foreground: #ffffff;
+
+  --color-secondary: #2a1550;
+  --color-secondary-foreground: #e8dcff;
+
+  --color-card: #150f24;
+  --color-card-foreground: #f0eaff;
+
+  --color-muted: #1e1535;
+  --color-muted-foreground: #a090c8;
+
+  --color-accent: #1e1535;
+  --color-accent-foreground: #e8dcff;
+
+  --color-destructive: #e11d48;
+  --color-destructive-foreground: #ffffff;
+
+  --color-border: #2e1f50;
+  --color-input: #2e1f50;
+  --color-ring: #7c3aed;
+}
