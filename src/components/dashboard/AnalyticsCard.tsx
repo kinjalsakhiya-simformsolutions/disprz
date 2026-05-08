@@ -20,8 +20,8 @@ export function AnalyticsCard({
     ? "text-green-600 dark:text-green-400"
     : "text-red-600 dark:text-red-400";
   const bgColor = isIncrease
-    ? "bg-green-50 dark:bg-green-950/30"
-    : "bg-red-50 dark:bg-red-950/30";
+    ? "bg-green-20 dark:bg-green-950/20"
+    : "bg-red-20 dark:bg-red-950/20";
 
   // Default variant - Standard card
   if (variant === "default") {

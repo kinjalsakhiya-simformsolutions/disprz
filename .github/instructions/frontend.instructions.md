@@ -1,3 +1,7 @@
+---
+applyTo: "src/components/**/*.tsx"
+---
+
 # Frontend Development Instructions
 
 ## Overview
@@ -673,3 +677,74 @@ npm run test
 
 **Last Updated**: May 7, 2026
 **Version**: 1.0
+
+---
+
+## Component Rules
+
+1. Use React functional components only.
+2. Use TypeScript interfaces for props.
+3. Use Tailwind CSS for styling.
+4. Prefer shadcn/ui components instead of custom base UI.
+5. Keep components reusable and modular.
+6. Split large components into smaller sections.
+7. Use semantic HTML tags whenever possible.
+8. Add accessibility support:
+   - aria-label
+   - button type
+   - alt text
+9. Prefer controlled components for forms.
+10. Avoid hardcoded values.
+
+---
+
+## shadcn/ui Rules
+
+- Use `Card` for content sections
+- Use `Button` for actions
+- Use `Dialog` for modals
+- Use `Table` for data display
+- Use `DropdownMenu` for menus
+
+---
+
+## Tailwind Rules
+
+- Use responsive utility classes
+- Keep class names organized
+- Avoid duplicated utility patterns
+- Prefer flex/grid layouts
+
+---
+
+## Table Component Standards
+
+When generating tables:
+
+- Add loading state
+- Add empty state
+- Add pagination support
+- Add search/filter support
+- Make table responsive
+
+---
+
+## Form Standards
+
+When generating forms:
+
+- Use React Hook Form if needed
+- Add validation states
+- Add error messages
+- Add disabled/loading button states
+
+---
+
+## Dashboard UI Standards
+
+When generating dashboard pages:
+
+- Create reusable analytics cards
+- Use responsive grid layouts
+- Support dark mode compatibility
+- Use consistent spacing and typography
