@@ -1,0 +1,6 @@
+{
+  "hookType": "preToolUse",
+  "name": "Block Dangerous Commands",
+  "description": "Prevents dangerous terminal commands",
+  "command": "node .github/hooks/check-command.js"
+}

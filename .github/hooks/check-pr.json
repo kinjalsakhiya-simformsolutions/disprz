@@ -1,0 +1,6 @@
+{
+  "hookType": "preToolUse",
+  "name": "Validate PR Quality",
+  "description": "Validates PR title, branch naming, and commit messages",
+  "command": "node .github/hooks/validate-pr.js"
+}

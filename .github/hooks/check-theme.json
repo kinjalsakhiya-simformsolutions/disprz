@@ -1,0 +1,6 @@
+{
+  "hookType": "preToolUse",
+  "name": "Validate Theme Changes",
+  "description": "Ensures theme files are properly configured before commit",
+  "command": "node .github/hooks/validate-theme.js"
+}
