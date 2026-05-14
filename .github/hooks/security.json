@@ -1,16 +1,14 @@
 {
-  "hooks": [
-    {
-      "hookType": "sessionStart",
+  "hooks": {
+    "sessionStart": {
       "name": "Session Logger",
       "description": "Logs when agent sessions begin",
       "command": "echo Session started at %DATE% %TIME% >> .github/hooks/session-log.txt"
     },
-    {
-      "hookType": "preToolUse",
+    "preToolUse": {
       "name": "Tool Execution Logger",
       "description": "Logs all tool executions",
       "command": "echo Tool executed at %DATE% %TIME% >> .github/hooks/tool-log.txt"
     }
-  ]
+  }
 }
