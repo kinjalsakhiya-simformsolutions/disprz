@@ -84,6 +84,7 @@ export function LoginPage() {
                   type="email"
                   placeholder="name@example.com"
                   value={email}
+                  disabled={isLoading}
                   onChange={(e) => {
                     setEmail(e.target.value);
                     if (errors.email)
@@ -103,6 +104,7 @@ export function LoginPage() {
                   type="password"
                   placeholder="••••••••"
                   value={password}
+                  disabled={isLoading}
                   onChange={(e) => {
                     setPassword(e.target.value);
                     if (errors.password)
@@ -124,7 +126,7 @@ export function LoginPage() {
               isLoading={isLoading}
               disabled={isLoading}
             >
-              Sign In
+              {isLoading ? "Signing In..." : "Sign In"}
             </Button>
           </form>
 
