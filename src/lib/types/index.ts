@@ -87,3 +87,21 @@ export interface TableColumn<T> {
   header: string;
   render?: (value: unknown, row: T) => React.ReactNode;
 }
+
+// Settings form types
+export interface SettingsFormData {
+  firstName?: string;
+  lastName?: string;
+  email?: string;
+  avatar?: string | null;
+}
+
+// User preferences types
+export interface UserPreferences {
+  language: string;
+  emailNotifications: boolean;
+  pushNotifications: boolean;
+  sidebarCollapse: boolean;
+  compactView: boolean;
+  autoLogout: number | string;
+}

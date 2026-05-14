@@ -10,6 +10,7 @@ import {
   DashboardPage,
   AnalyticsPage,
   UsersPage,
+  SettingsPage,
 } from "./pages";
 import { DashboardLayout } from "./components/layout";
 import { ProtectedRoute } from "./lib";
@@ -54,6 +55,14 @@ function App() {
             element={
               <ProtectedRoute>
                 <UsersPage />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/settings"
+            element={
+              <ProtectedRoute>
+                <SettingsPage />
               </ProtectedRoute>
             }
           />
