@@ -103,8 +103,8 @@ src/
 - Navigate to `/login`
 - Demo credentials:
   - Email: `demo@example.com`
-  - Password: `demo123`
-- Or use any valid email format and password ≥ 6 characters
+  - Password: `demo12345`
+- Or use any valid email format and password ≥ 8 characters
 
 ### Dashboard
 

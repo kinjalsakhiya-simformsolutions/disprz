@@ -31,8 +31,8 @@ export function LoginPage() {
 
     if (!password) {
       newErrors.password = "Password is required";
-    } else if (password.length < 6) {
-      newErrors.password = "Password must be at least 6 characters";
+    } else if (password.length < 8) {
+      newErrors.password = "Password must be at least 8 characters";
     }
 
     setErrors(newErrors);
@@ -136,7 +136,7 @@ export function LoginPage() {
               Email: demo@example.com
             </p>
             <p className="text-xs text-muted-foreground text-center">
-              Password: demo123
+              Password: demo12345
             </p>
           </div>
         </CardContent>
